@@ -1,0 +1,703 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    text-transform: capitalize;
+    
+}
+.nav{
+    height: 65px;
+    background-color: lightblue;
+}
+ul li{
+    padding-top: 16px;
+    display: inline-block;
+    letter-spacing: 18px;
+    margin-left: 16px;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(211, 89, 89);
+    font-weight: bold;
+}
+.home{
+    background-image: url(./images/home.webp);
+    height: 90vh;
+    width: 97vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 12px;
+}
+.a h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.a img{
+    height: 350px;
+    width: 100%;
+}
+.a h3{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.a p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+.b h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.b img{
+    height: 350px;
+    width: 100%;
+}
+.b h3{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.b p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+.c h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.c img{
+    height: 350px;
+    width: 100%;
+}
+.c h3{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.c p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+.d h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.d img{
+    height: 350px;
+    width: 100%;
+}
+.d h3{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.d p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+.e h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.e img{
+    height: 350px;
+    width: 100%;
+}
+.e h3{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.e p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+.f h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.f img{
+    height: 350px;
+    width: 100%;
+}
+.f h3{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.f p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+.g h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.g img{
+    height: 350px;
+    width: 100%;
+}
+.g h3{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.g p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+.h h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.h img{
+    height: 350px;
+    width: 100%;
+}
+.h h3{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.h p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+.i h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.i img{
+    height: 350px;
+    width: 100%;
+}
+.i h3{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.i p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+.j h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.j img{
+    height: 350px;
+    width: 100%;
+}
+.j h3{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+}
+.j p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+.k h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.k img{
+    height: 350px;
+    width: 100%;
+}
+.k h3{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.k p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+.l h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.l img{
+    height: 350px;
+    width: 100%;
+}
+.l h3{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.l p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+.m h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.m img{
+    height: 350px;
+    width: 100%;
+}
+.m h3{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.m p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+.n h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.n img{
+    height: 350px;
+    width: 100%;
+}
+.n h3{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.n p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+.o h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.o img{
+    height: 350px;
+    width: 100%;
+}
+.o h3{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+}
+.o p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+.p h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.p img{
+    height: 350px;
+    width: 100%;
+}
+.p h3{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+}
+.p p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+.q h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.q img{
+    height: 350px;
+    width: 100%;
+}
+.q h3{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+}
+.q p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+.r h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.r img{
+    height: 350px;
+    width: 100%;
+}
+.r h3{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+}
+.r p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+.s h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.s img{
+    height: 350px;
+    width: 100%;
+}
+.s h3{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+}
+.s p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+.t h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.t img{
+    height: 350px;
+    width: 100%;
+}
+.t h3{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+}
+.t p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+.u h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.u img{
+    height: 350px;
+    width: 100%;
+}
+.u h3{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+}
+.u p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+.v h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.v img{
+    height: 350px;
+    width: 100%;
+}
+.v h3{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+}
+.v p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+.w h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.w img{
+    height: 350px;
+    width: 100%;
+}
+.w h3{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+}
+.w p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+.x h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.x img{
+    height: 350px;
+    width: 100%;
+}
+.x h3{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+}
+.x p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+.y h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.y img{
+    height: 350px;
+    width: 100%;
+}
+.y h3{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+}
+.y p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+.z h2{
+    background-color: lightcoral;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Oswald', sans-serif;
+}
+.z img{
+    height: 350px;
+    width: 100%;
+}
+.z h3{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 38px;
+}
+.z p{
+    font-family: 'Kanit', sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 28px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+}
+footer button{
+    height: 45px;
+    width: 400px;
+    background-color: palevioletred;
+    font-size: 30px;
+    border: 5px solid lightblue;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+footer button a{
+    text-decoration: none;
+    color: black;
+    
+}
+footer button:hover{
+    background-color: lightblue;
+    border: 2px solid palevioletred;
+    cursor: pointer;
+}
+.form{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgb(201, 201, 252);
+}
+.form input{
+    word-spacing: 10px;
+}
+#f-name{
+    height: 26px;
+}
+#email{
+    height: 27px;
+    margin-left: 111px;
+
+}
+#age{
+    height: 27px;
+    width: 155px;
+    margin-right: 124px;
+}
+#phone{
+    height: 27px;
+    margin-right: 0px;
+    width: 171px;
+}
+#message{
+    resize: none;
+    border: 2px solid black;
+    text-align: center;
+}
+#submit{
+    width: 590px;
+    height: 42px;
+    background-color: lightskyblue;
+    border: 1px solid black;
+    font-size: 27px;
+    font-weight: bold;
+}
+#submit:hover{
+    cursor: pointer;
+}
